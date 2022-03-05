@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="acemePackage1.AcemeMainTest" />
+			<class name="acemePackage1.AddAccount" />
+			<class name="acemePackage1.VendorInvertory" />
+			<class name="acemePackage1.VDDselect" />
+			<class name="acemePackage1.VariousDatePicker" />
+			<!-- <class name="acemePackage1.ORANGEhrmMain" /> -->
+			<class name="acemePackage1.LocalArrayDemo" />
+			<class name="acemePackage1.ExcelDDT" />
+			<!-- <class name="acemePackage1.phptravels" /> -->
+			<class name="acemePackage1.Shoppingcart" />
+			<class name="acemePackage1.VariousControls" />
+			<class name="acemePackage1.ExcelDemoDDT" />
+			<class name="acemePackage1.Saucedemo" />
+			<class name="acemePackage1.OpenMRSmainTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

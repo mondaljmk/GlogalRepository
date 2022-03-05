@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>This is a HTML DEMO</title>
+</head>
+<body>
+	<h1>First HTML DEMO</h1>
+	Fruits:
+	<select id="idfruits">
+
+		<option></option>
+		<option>Apple</option>
+		<option>Orange</option>
+		<option>Banana</option>
+		<option>Avocado</option>
+		<option>Grape</option>
+		
+	</select>
+	
+	<button onclick="myFunction()">Click Me</button>
+	
+	<p id="dsa">Element</p><br><br>
+	
+	
+	Group:<br>
+	<input id="i1" type="radio" value="A"checked>Science<br>
+	<input id="i2" type="radio" value="B">Humanitarian<br>
+	<input id="i3" type="radio">Commerce<br>
+	<input id="i4" type="radio">Accounting<br>
+	
+	
+	
+	
+	<script type="text/javascript">
+		function myFunction() {
+			var message
+			var ftname = document.getElementById("idfruits").value;
+			if (ftname == "Apple") {
+				message = "I will not eat apple";
+			} else if (ftname == "Orange") {
+				message = "I will eat Orange";
+			} else if (ftname == "Banana") {
+				message = "I will not eat banana in the evening";
+			} else if (ftname == "Avocado") {
+				message = "I will  eat Avocado";
+			} else{
+				message="I will eat Grape";
+			}
+
+			document.getElementById("dsa").innerHTML = message;
+
+		}
+	</script>
+
+</body>
+</html>
